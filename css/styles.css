@@ -124,10 +124,10 @@ a:hover{
 
 img.zuba{
     border-radius: 5%;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
     -webkit-border-radius: 5%;
     -moz-border-radius: 5%;
     -ms-border-radius: 5%;
@@ -217,6 +217,14 @@ text-decoration: none;
     .skill-row .intro .contact-me{
         width: 100%;
     }
+    .skill-row{
+        margin: 100px auto 100px auto;
+        text-align: left;
+        width: 80%;
+    }.intro{
+        width: 80%;
+        margin: auto;
+    }
 }
 
 
@@ -267,6 +275,15 @@ text-decoration: none;
     }
      p{
        font-size: 1rem;
+    }
+    .skill-row{
+        margin: 100px auto 100px auto;
+        text-align: left;
+        width: 80%;
+    }
+    .intro{
+        width: 80%;
+        margin: auto;
     }
 }
 
